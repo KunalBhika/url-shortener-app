@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI = "mongodb://localhost:27017/urlshortner";
+const mongoURI = "mongodb+srv://kunalbhika:Kunalbhika1#@cluster0.h5tpr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const connectToMongo = () => {
     mongoose.connect(mongoURI)
     .then(() => {
